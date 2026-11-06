@@ -1,0 +1,138 @@
+{
+  "videos": [
+    {
+      "video_name": "mona-lisa-blur-extra-credit.avi",
+      "method": "sift",
+      "resolution": "640x360",
+      "video_fps": 29.97,
+      "total_frames": 558,
+      "tracked_frames": 558,
+      "detection_rate_pct": 94.98,
+      "ref_keypoints": 1411,
+      "mean_keypoints": 739.01,
+      "mean_good_matches": 57.77,
+      "mean_inliers": 36.4,
+      "max_inliers": 1411,
+      "mean_inlier_ratio": 0.7453,
+      "mean_processing_ms": 62.86,
+      "processing_fps": 15.91,
+      "output_video": "results\\videos\\mona-lisa-blur-extra-credit_tracked.mp4",
+      "keyframes_image": "results\\keyframes_mona-lisa-blur-extra-credit.png",
+      "matches_image": "results\\matches_mona-lisa-blur-extra-credit.png"
+    },
+    {
+      "video_name": "mona-lisa-blur.avi",
+      "method": "sift",
+      "resolution": "640x360",
+      "video_fps": 29.97,
+      "total_frames": 558,
+      "tracked_frames": 558,
+      "detection_rate_pct": 96.59,
+      "ref_keypoints": 1409,
+      "mean_keypoints": 765.91,
+      "mean_good_matches": 58.01,
+      "mean_inliers": 36.63,
+      "max_inliers": 1409,
+      "mean_inlier_ratio": 0.7296,
+      "mean_processing_ms": 58.67,
+      "processing_fps": 17.04,
+      "output_video": "results\\videos\\mona-lisa-blur_tracked.mp4",
+      "keyframes_image": "results\\keyframes_mona-lisa-blur.png",
+      "matches_image": "results\\matches_mona-lisa-blur.png"
+    },
+    {
+      "video_name": "mona-lisa.avi",
+      "method": "sift",
+      "resolution": "640x360",
+      "video_fps": 29.97,
+      "total_frames": 558,
+      "tracked_frames": 558,
+      "detection_rate_pct": 100.0,
+      "ref_keypoints": 1409,
+      "mean_keypoints": 793.33,
+      "mean_good_matches": 67.37,
+      "mean_inliers": 45.61,
+      "max_inliers": 1409,
+      "mean_inlier_ratio": 0.7616,
+      "mean_processing_ms": 59.1,
+      "processing_fps": 16.92,
+      "output_video": "results\\videos\\mona-lisa_tracked.mp4",
+      "keyframes_image": "results\\keyframes_mona-lisa.png",
+      "matches_image": "results\\matches_mona-lisa.png"
+    },
+    {
+      "video_name": "PyBook_CV.avi",
+      "method": "sift",
+      "resolution": "480x640",
+      "video_fps": 29.97,
+      "total_frames": 518,
+      "tracked_frames": 516,
+      "detection_rate_pct": 100.0,
+      "ref_keypoints": 2269,
+      "mean_keypoints": 1360.97,
+      "mean_good_matches": 255.53,
+      "mean_inliers": 200.72,
+      "max_inliers": 2269,
+      "mean_inlier_ratio": 0.716,
+      "mean_processing_ms": 44.55,
+      "processing_fps": 22.45,
+      "output_video": "results\\videos\\PyBook_CV_tracked.mp4",
+      "keyframes_image": "results\\keyframes_PyBook_CV.png",
+      "matches_image": "results\\matches_PyBook_CV.png"
+    }
+  ],
+  "comparison": [
+    {
+      "video_name": "mona-lisa-blur-extra-credit.avi",
+      "sift": {
+        "detection_rate_pct": 94.98,
+        "mean_inliers": 36.4,
+        "fps": 15.91
+      },
+      "orb": {
+        "detection_rate_pct": 94.98,
+        "mean_inliers": 96.58,
+        "fps": 22.51
+      }
+    },
+    {
+      "video_name": "mona-lisa-blur.avi",
+      "sift": {
+        "detection_rate_pct": 96.59,
+        "mean_inliers": 36.63,
+        "fps": 17.04
+      },
+      "orb": {
+        "detection_rate_pct": 96.59,
+        "mean_inliers": 97.88,
+        "fps": 21.85
+      }
+    },
+    {
+      "video_name": "mona-lisa.avi",
+      "sift": {
+        "detection_rate_pct": 100.0,
+        "mean_inliers": 45.61,
+        "fps": 16.92
+      },
+      "orb": {
+        "detection_rate_pct": 100.0,
+        "mean_inliers": 131.22,
+        "fps": 21.25
+      }
+    },
+    {
+      "video_name": "PyBook_CV.avi",
+      "sift": {
+        "detection_rate_pct": 100.0,
+        "mean_inliers": 200.72,
+        "fps": 22.45
+      },
+      "orb": {
+        "detection_rate_pct": 100.0,
+        "mean_inliers": 238.51,
+        "fps": 26.74
+      }
+    }
+  ]
+}
